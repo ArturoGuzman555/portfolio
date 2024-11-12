@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f2f5f7; 
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background: linear-gradient(135deg, #3b5998, #3b9e98, #ffc107); 
+    border-radius: 50px; 
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    left: 10%;
+    right: 10%;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ffc107;
+    transition: color 0.3s ease;
+}
+
+
+section {
+    padding: 100px 20px 20px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9fafc; 
+    margin-top: 80px; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #3b5998;
+    margin-bottom: 1em;
+}
+
+#Mis_Tecnologías img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: transform 0.3s ease; 
+}
+
+
+#Mis_Tecnologías img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#proyectos img {
+    width: 80%; 
+    max-width: 500px; 
+    height: auto; 
+    margin: 20px auto; 
+    display: block;
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+#proyectos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+.proyecto {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8f5e9; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    color: #388e3c;
+}
+
+.proyecto p {
+    color: #555;
+}
+
+.proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #3b5998;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.proyecto a:hover {
+    background-color: #388e3c;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
